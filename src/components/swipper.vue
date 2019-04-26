@@ -3,11 +3,11 @@
     <md-card-media>
       <!-- swiper -->
       <swiper :options="swiperOption">
-        <swiper-slide class="swipper-img">Slide 1</swiper-slide>
-        <swiper-slide class="swipper-img">Slide 2</swiper-slide>
-        <swiper-slide class="swipper-img">Slide 3</swiper-slide>
-        <swiper-slide class="swipper-img">Slide 4</swiper-slide>
-        <swiper-slide class="swipper-img">Slide 5</swiper-slide>
+        <swiper-slide class="swipper-img"></swiper-slide>
+        <swiper-slide class="swipper-img"></swiper-slide>
+        <swiper-slide class="swipper-img"></swiper-slide>
+        <swiper-slide class="swipper-img"></swiper-slide>
+        <swiper-slide class="swipper-img"></swiper-slide>
         <div class="swiper-pagination" slot="pagination"></div>
       </swiper>
     </md-card-media>
@@ -38,5 +38,5 @@ export default {
 <style lang="stylus" scoped>
 .swipper-img
   background-image: url('../../static/timg.jpeg')
-  height: 10rem
+  height: 8rem
 </style>
